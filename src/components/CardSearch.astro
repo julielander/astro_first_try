@@ -1,0 +1,18 @@
+---
+const header = Astro.props.header
+---
+<article>
+<h3>{header}</h3>
+<slot/>
+</article>
+
+<style>
+article {
+	border-radius: 10px;
+	padding: 20px;
+    background-color: hotpink;
+}
+
+
+
+</style>

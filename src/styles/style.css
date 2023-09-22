@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.grid_7 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin: 0 20px;
+}
+
+.grid_1 {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+main {
+  background-color: #1d1d1d;
+}
+
+p {
+  color: #787878;
+  font-family: "Signika", sans-serif;
+  font-weight: 100;
+  font-size: 0.68rem;
+  margin: 5px 5px;
+}
+
+h3 {
+  color: white;
+  font-family: "Signika", sans-serif;
+  font-size: 0.7rem;
+  font-weight: 600;
+  margin: 5px 5px;
+}
+
+h2 {
+  color: white;
+  font-family: "Signika", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-family: "Signika", sans-serif;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+header {
+  background-color: black;
+}
+
+img {
+  border-radius: 10px;
+}
+.button-container {
+  display: flex;
+  justify-content: flex-end; /* Dette flytter knapperne til højre */
+}
+
+.logo {
+  filter: invert(100%);
+}
+
+.grid_6 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin: 20px;
+}
+
+.drej {
+  transform: rotate(35deg);
+  width: 80%;
+  padding: 20px;
+  margin-left: 80px;
+}
